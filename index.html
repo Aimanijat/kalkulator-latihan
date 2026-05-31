@@ -26,7 +26,7 @@
       h1{
           color:white;
           margin-bottom: 20px;
-          font-size: 2.5;
+          font-size: 2.5em;
           text-shadow:2px 2px 4px rgba(0,0,0,0.3);
       }
 
@@ -53,6 +53,32 @@
           display: grid;
           grid-template-columns: repeat(4,1fr);
           gap: 10px;
+      }
+
+      .btn{
+          padding: 20px;
+          font-size: 1.2em;
+          border: none;
+          border-radius: 8px;
+          cursor: poiner;
+          background: #e0e0e0;
+          color: #333;
+          font-weight: bold;
+          transition: all 0.2s;
+      }
+
+      .btn:hover{
+          background: #d0d0d0;
+          transform: scale(1.05);
+      }
+
+      .btn:active{
+          transform: scale(0.95);
+      }
+
+      .btn.operator{
+          background: #667eea;
+          color:white;
       }
     </style>
   </head>
